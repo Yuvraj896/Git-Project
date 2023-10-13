@@ -64,10 +64,27 @@
     border: none;
     background-color: #fff;
     border-radius: 0;
-    appearance: none; /* Remove default styles on some browsers */
+    appearance: none; /* Remove default styles   on some browsers */
     cursor: pointer;
 }
 
 #semester select:focus {
     outline: none; /* Remove the default focus outline */
+}
+#details2 {
+    position: relative;top: -90px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* This sets the height of the section to fill the viewport height. */
+}
+
+#Branch {
+    position: relative; top: 10px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #968d8d;
+    border-radius: 10px;
 }
