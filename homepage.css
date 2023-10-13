@@ -49,3 +49,18 @@
     justify-content: center;
     height: 200px; /* This sets the height of the section to fill the viewport height. */
 }
+
+#semester {
+    width: 200px; /* Set the width of the select element */
+    padding: 15px; /* Add some padding to make it look better */
+    border: 2px solid #bbaeae; /* Add a border for clarity */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+#semester::after {
+    content: '\25BC'; /* Unicode character for a down arrow */
+    position: absolute;
+    top: 5000%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensure the arrow is not clickable */
