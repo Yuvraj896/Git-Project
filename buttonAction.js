@@ -16,4 +16,4 @@ document.getElementById("redirectButton").addEventListener("click", function () 
         } else {
         alert("The selected combination does not have a corresponding page.");
     }
-});
+}); 
