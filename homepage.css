@@ -88,3 +88,15 @@
     border: 2px solid #968d8d;
     border-radius: 10px;
 }
+
+/* yuvraj work */
+#redirectButton{
+    position: relative; top: -120px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid #968d8d ;
+    border-radius: 10px;
+}
