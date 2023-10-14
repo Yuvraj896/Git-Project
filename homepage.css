@@ -50,17 +50,53 @@
     height: 200px; /* This sets the height of the section to fill the viewport height. */
 }
 
-#semester {
-    width: 200px; /* Set the width of the select element */
-    padding: 15px; /* Add some padding to make it look better */
-    border: 2px solid #bbaeae; /* Add a border for clarity */
-    border-radius: 5px; /* Add rounded corners */
+#semester{
+    position: relative; top: 10px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #968d8d;
+    border-radius: 10px;
 }
 
-#semester::after {
-    content: '\25BC'; /* Unicode character for a down arrow */
-    position: absolute;
-    top: 5000%;
-    right: 10px;
-    transform: translateY(-50%);
-    pointer-events: none; /* Ensure the arrow is not clickable */
+#semester select  {
+    width: 100% ;
+    padding: 8px;
+    border: none;
+    background-color: #fff;
+    border-radius: 0;
+    appearance: none; /* Remove default styles   on some browsers */
+    cursor: pointer;
+}
+
+#semester select:focus {
+    outline: none; /* Remove the default focus outline */
+}
+#details2 {
+    position: relative;top: -90px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px; /* This sets the height of the section to fill the viewport height. */
+}
+
+#Branch {
+    position: relative; top: 10px;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #968d8d;
+    border-radius: 10px;
+}
+
+/* yuvraj work */
+#redirectButton{
+    position: relative; top: -120px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid #968d8d ;
+    border-radius: 10px;
+}
