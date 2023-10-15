@@ -100,3 +100,19 @@
     border: 2px solid #968d8d ;
     border-radius: 10px;
 }
+
+.container
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f7f0f0;
+    width: 100%;
+    font-style: oblique;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
