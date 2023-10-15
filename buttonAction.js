@@ -1,75 +1,54 @@
 document.getElementById("redirectButton").addEventListener("click", function () {
     const semester = document.getElementById("semester").value;
     const branch = document.getElementById("Branch").value; // Note the capital 'B' in 'Branch'.
+    
+    const urlMapping = {
+        "1st_CSE": "Semester 1/selectCourse.html",
+        "1st_EE": "Semester 1/selectCourse.html",
+        "1st_ME": "Semester 1/selectCourse.html",
+        "1st_MT": "Semester 1/selectCourse.html",
 
-    if (semester === "1st") {
-        window.location.href = "semester 1/selectCourse.html";
-    }
-    else if (semester === "2nd" && branch === "CSE") {
-        window.location.href = "semester 2/CSE/selectCourse.html";
-    } else if (semester === "2nd" && branch === "EE") {
-        window.location.href = "semester 2/EE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-    } else if (semester === "2nd" && branch === "ME") {
-        window.location.href = "semester 2/ME/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-    } else if (semester === "2nd" && branch === "MT") {
-        window.location.href = "semester 2/MT/selectCourse.html"; // Redirect to an internal page for Mechatronics Engineering.
+        "2nd_CSE": "Semester 2/CSE/selectCourse.html",
+        "2nd_EE": "Semester 2/EE/selectCourse.html",
+        "2nd_ME": "Semester 2/ME/selectCourse.html",
+        "2nd_MT": "Semester 2/MT/selectCourse.html",
 
-        //here add the files for 2nd sem 3rd sem 4 th sem 
-        //eg 2nd sem cse then redirect to the cse_2ndsem.html , this html file will be in folder semester 2 -> cse -> file.html
-    } else if (semester === "3rd" && branch === "CSE") {
-            window.location.href = "semester 3/CSE/selectCourse.html";
-        } else if (semester === "3rd" && branch === "EE") {
-            window.location.href = "semester 3/EE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-        } else if (semester === "3rd" && branch === "ME") {
-            window.location.href = "semester 3/ME/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-        } else if (semester === "3rd" && branch === "MT") {
-            window.location.href = "semester 3/MT/selectCourse.html";
-         }
-         else if (semester === "4th" && branch === "CSE") {
-            window.location.href = "semester 4/CSE/selectCourse.html";
-        } else if (semester === "4th" && branch === "EE") {
-            window.location.href = "semester 4/EE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-        } else if (semester === "4th" && branch === "ME") {
-            window.location.href = "semester 4/ME/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-        } else if (semester === "4th" && branch === "MT") {
-            window.location.href = "semester 4/MT/selectCourse.html";
-         }
-         else if (semester === "5th" && branch === "CSE") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-        } else if (semester === "5th" && branch === "EE") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-        } else if (semester === "5th" && branch === "ME") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-        } else if (semester === "5th" && branch === "MT") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-         }
-         else if (semester === "6th" && branch === "CSE") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-        } else if (semester === "6th" && branch === "EE") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-        } else if (semester === "6th" && branch === "ME") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-        } else if (semester === "6th" && branch === "MT") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-         }
-         else if (semester === "7th" && branch === "CSE") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-        } else if (semester === "7th" && branch === "EE") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-        } else if (semester === "7th" && branch === "ME") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-        } else if (semester === "7th" && branch === "MT") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-         }
-         else if (semester === "8th" && branch === "CSE") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-        } else if (semester === "8th" && branch === "EE") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an external URL (Google in this case).
-        } else if (semester === "8th" && branch === "ME") {
-            window.location.href = "semester 5/CSE/selectCourse.html"; // Redirect to an internal page for Mechanical Engineering.
-        } else if (semester === "8th" && branch === "MT") {
-            window.location.href = "semester 5/CSE/selectCourse.html";
-         } else {
+        "3rd_CSE": "Semester 3/CSE/selectCourse.html",
+        "3rd_EE": "Semester 3/EE/selectCourse.html",
+        "3rd_ME": "Semester 3/ME/selectCourse.html",
+        "3rd_MT": "Semester 3/MT/selectCourse.html",
+
+        "4th_CSE": "Semester 4/CSE/selectCourse.html",
+        "4th_EE": "Semester 4/EE/selectCourse.html",
+        "4th_ME": "Semester 4/ME/selectCourse.html",
+        "4th_MT": "Semester 4/MT/selectCourse.html",
+
+        "5th_CSE": "noContent.html",
+        "5th_EE": "noContent.html",
+        "5th_ME": "noContent.html",
+        "5th_MT": "noContent.html",
+
+        "6th_CSE": "noContent.html",
+        "6th_EE": "noContent.html",
+        "6th_ME": "noContent.html",
+        "6th_MT": "noContent.html",
+
+        "7th_CSE": "noContent.html",
+        "7th_EE": "noContent.html",
+        "7th_ME": "noContent.html",
+        "7th_MT": "noContent.html",
+
+        "8th_CSE": "noContent.html",
+        "8th_EE": "noContent.html",
+        "8th_ME": "noContent.html",
+        "8th_MT": "noContent.html"
+    };
+
+    const key = `${semester}_${branch}`;
+
+    if (urlMapping[key]) {
+        window.location.href = urlMapping[key];
+    } else {
         alert("The selected combination does not have a corresponding page.");
     }
-}); 
+});

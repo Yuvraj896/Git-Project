@@ -8,20 +8,20 @@ document.getElementById("redirectButton").addEventListener("click", function() {
             "other": "IC100/ic100tut.html"
         },
         "ic101": {
-            "notes": "ic101_notes.html",
-            "other": "ic101_tut.html"
+            "notes": "../noContent.html",
+            "other": "../noContent.html"
         },
         "ic103": {
-            "notes": "ic103_notes.html",
-            "other": "ic103_tut.html"
+            "notes": "../noContent.html",
+            "other": "../noContent.html"
         },
         "ic104": {
             "notes": "ic104_notes.html",
-            "other": "ic104_tut.html"
+            "other": "../noContent.html"
         },
         "ic105": {
-            "notes": "ic105_notes.html",
-            "other": "ic105_tut.html"
+            "notes": "../noContent.html",
+            "other": "../noContent.html"
         }
     };
 
