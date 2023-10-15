@@ -1,0 +1,91 @@
+#logo{
+    background-color:rgb(223, 223, 223);
+    height: 50;
+}
+#logo img{
+    width: 40;
+    position: relative; top: 40px;
+    
+}
+#navi1 ul {
+    background-color:rgba(212, 205, 205, 0.973);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+#navi1 li {
+    margin: 0;
+    padding: 10;
+}
+
+
+#navi1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #050505;
+    padding: 10px 20px;
+}
+
+
+#navi1 a:hover {
+    background-color: #333;
+    color: #fff;
+}
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.loading-container {
+    text-align: center;
+}
+
+.dots-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    background-color: #3498db;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px; /* Adjust the margin as needed to position the dots */
+    animation: blink 1s infinite;
+}
+
+.dot-1 {
+    animation-delay: 0.2s;
+}
+
+.dot-2 {
+    animation-delay: 0.4s;
+}
+
+.dot-3 {
+    animation-delay: 0.6s;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.nav-link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #3498db;
+    margin-top: 20px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
