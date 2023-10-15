@@ -3,25 +3,21 @@ document.getElementById("redirectButton").addEventListener("click", function() {
     var selectedOption = document.getElementById("Branch").value;
 
     var courseUrls = {
-        "ic100": {
-            "notes": "IC100/ic100.html",
-            "other": "IC100/ic100tut.html"
+        "cs200": {
+            "notes": "CS200(STT2)/cs200.html",
+            "other": "CS200(STT2)/cs200tut.html"
         },
-        "ic101": {
-            "notes": "../noContent.html",
-            "other": "../noContent.html"
+        "cs201": {
+            "notes": "../../noContent.html",
+            "other": "../../noContent.html"
         },
-        "ic103": {
-            "notes": "../noContent.html",
-            "other": "../noContent.html"
+        "cs202": {
+            "notes": "../../noContent.html",
+            "other": "../../noContent.html"
         },
-        "ic104": {
-            "notes": "ic104_notes.html",
-            "other": "../noContent.html"
-        },
-        "ic105": {
-            "notes": "../noContent.html",
-            "other": "../noContent.html"
+        "ic202": {
+            "notes": "../../noContent.html",
+            "other": "../../noContent.html"
         }
     };
 
