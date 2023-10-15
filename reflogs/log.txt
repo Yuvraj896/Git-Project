@@ -1,0 +1,170 @@
+commit 8aedb0c28ee07f64fb183ab5ed89a1a9b55d332e
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 19:47:20 2023 +0530
+
+    adding aboutus.html to master and completed 1st version of project
+
+commit d112e189aff43652d4a79f7c4412ee3193b15ea1
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sun Oct 15 18:41:27 2023 +0530
+
+    updated css , html for the noContent
+
+commit c96332371f4ae47deaaffac30bfc93f145a77d1b
+Merge: 582165f 055f9a4
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sun Oct 15 16:59:14 2023 +0530
+
+    Merge branch 'master' of https://github.com/Yuvraj896/Git-Project into yuvraj
+
+commit 582165fd737f6a4aa05ba1fa93fda1258a273bdf
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sun Oct 15 16:46:42 2023 +0530
+
+    linking done , need saurav's loading screen
+
+commit 7f7c2909c1d9c32266f9d7c8ef50cd4b76077092
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sun Oct 15 16:15:45 2023 +0530
+
+    done ic100 tutorial , saurav do merge with my branch
+
+commit 055f9a420d3ed8b4b93dd9aec7ab36290f497212
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 16:01:04 2023 +0530
+
+    added sem 7 and sem 8 button in homepage.css
+
+commit 9c07563f714f0def78e2d4514350bbcd4a474655
+Merge: b2861a4 142d0cc
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 15:42:14 2023 +0530
+
+    Merge branch 'saurav'
+
+commit b4127268fb8a0340085476485e98309c25496297
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sun Oct 15 13:22:55 2023 +0530
+
+    testing something
+
+commit 21c1262bd536d80038d01156227db29b25ae9a3b
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sun Oct 15 13:07:48 2023 +0530
+
+    sem1->webpage for ic100 done, do this for other course/sem also
+
+commit 142d0ccf8fa5c849c78cd8e22cc0cf640064644f
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 12:48:50 2023 +0530
+
+    loader type change in selectcourse.html for sem content not available
+
+commit 3aa525295757a3d5703c4d7f3b1214220dfea00e
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 12:35:04 2023 +0530
+
+    change in selectcourse.html for sem content not available
+
+commit ee359dcf298b333f2a24d8c852e7529c5a2376b2
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 01:48:02 2023 +0530
+
+    contact.html but can be changed
+
+commit 5205a30d548ae32876d6d37ec4b1752d94c6d62a
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sun Oct 15 01:30:56 2023 +0530
+
+    commiting semster 5 folder having selectCourse.html and  sem5_selectCourse.css
+
+commit fc3e68510f3d6cf9bc185eb5ef19bd8180a337c3
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sat Oct 14 19:44:29 2023 +0530
+
+    error in name of selectcourse.html -> selectCourse.html
+
+commit 18458f103eed2f986b42e1bd25789dc95e326b79
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sat Oct 14 19:25:01 2023 +0530
+
+     commiting semester 5 to semester 8 js changes
+
+commit b2861a4b922994a90121e2f1c06e28e9a820bb36
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sat Oct 14 19:22:42 2023 +0530
+
+    sem 1 ic 100 done
+
+commit e47438b9e978cfa7c49aec1a99e4edc789eb11b0
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sat Oct 14 16:59:41 2023 +0530
+
+    1st semester done , not linked
+
+commit 8681aed8ddd33c5301dc58ff1a516f28af92aad0
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Sat Oct 14 16:45:05 2023 +0530
+
+    commiting semester 1 to semester 4 js changes and semester 2 folder with CSE folder contain selectcourse.html
+
+commit 9c94635d6357281ef81ff04692df34597ca1d19b
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sat Oct 14 15:26:13 2023 +0530
+
+    made folders , now put elements acc to readme file
+
+commit f9e038353ae9b72261683dd117bd44bbd14671b6
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sat Oct 14 15:00:42 2023 +0530
+
+    saurav update js file for other semester
+
+commit 420b9bb57689509b52698f2f554f04332ee66a31
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Sat Oct 14 14:41:03 2023 +0530
+
+    proceed buttton added
+
+commit 44b1aedb71f456775420a7ca456817e2048a94e4
+Merge: 007dc59 11a1657
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Fri Oct 13 20:00:56 2023 +0530
+
+    resolved conflicts with saurav branch
+
+commit 007dc59036190fa31aa6851d1ef72dce29f2b248
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Fri Oct 13 16:29:27 2023 +0530
+
+    semester button update
+
+commit 11a16576fdd13320362c5445afe27e7d367483cf
+Author: SauravBirman <saurav@iitbhilai.ac.in>
+Date:   Fri Oct 13 16:26:04 2023 +0530
+
+    branch button and css added
+
+commit a5de20fc8a6c3892add0ead6ad855e684f62fc9a
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Fri Oct 13 15:12:03 2023 +0530
+
+    button
+
+commit 27cde9b59849b0086bb66ed8dd1f5874e1c58376
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Thu Oct 12 20:52:47 2023 +0530
+
+    options added but without css
+
+commit cb015f3052bf70a099e585788386c8d76de694ac
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Thu Oct 12 20:22:59 2023 +0530
+
+    some css modifications
+
+commit e19c42453a8ced98a7b4bdb460b0cde4c8f87eb1
+Author: Yuvraj <yuvrajm@iitbhilai.ac.in>
+Date:   Thu Oct 12 19:56:14 2023 +0530
+
+    webpage started making
