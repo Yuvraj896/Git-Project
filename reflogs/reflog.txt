@@ -1,0 +1,51 @@
+bf257f2 HEAD@{0}: reset: moving to bf257f24454924f900e5a4ca5f34ef0547ed639d
+bf257f2 HEAD@{1}: revert: Revert "login code not fully done , remove (mistake push)"
+d553a45 HEAD@{2}: commit: added login
+2ea4f45 HEAD@{3}: pull origin master: Merge made by the 'ort' strategy.
+7b70a60 HEAD@{4}: merge yuvraj: Fast-forward
+d112e18 HEAD@{5}: checkout: moving from yuvraj to master
+7b70a60 HEAD@{6}: commit: updated html
+ab047ab HEAD@{7}: pull origin tempGovind: Merge made by the 'ort' strategy.
+1bab092 HEAD@{8}: commit (merge): cs200 notes and pdfs linkes
+d112e18 HEAD@{9}: checkout: moving from master to yuvraj
+d112e18 HEAD@{10}: merge yuvraj: Fast-forward
+21c1262 HEAD@{11}: checkout: moving from yuvraj to master
+d112e18 HEAD@{12}: commit: updated css , html for the noContent
+c963323 HEAD@{13}: pull origin master: Merge made by the 'ort' strategy.
+582165f HEAD@{14}: reset: moving to 582165fd737f6a4aa05ba1fa93fda1258a273bdf
+582165f HEAD@{15}: commit: linking done , need saurav's loading screen
+7f7c290 HEAD@{16}: commit: done ic100 tutorial , saurav do merge with my branch
+b412726 HEAD@{17}: checkout: moving from master to yuvraj
+21c1262 HEAD@{18}: checkout: moving from main to master
+2c62a03 HEAD@{19}: cherry-pick: sem1->webpage for ic100 done, do this for other course/sem also
+4a8a18d HEAD@{20}: checkout: moving from yuvraj to main
+b412726 HEAD@{21}: checkout: moving from main to yuvraj
+4a8a18d HEAD@{22}: checkout: moving from 4a8a18d05b0c71a4a1455dabe530d122e4dd8bcd to main
+4a8a18d HEAD@{23}: checkout: moving from main to origin/main
+4a8a18d HEAD@{24}: checkout: moving from yuvraj to main
+b412726 HEAD@{25}: commit: testing something
+21c1262 HEAD@{26}: checkout: moving from master to yuvraj
+21c1262 HEAD@{27}: merge yuvraj: Fast-forward
+b2861a4 HEAD@{28}: checkout: moving from yuvraj to master
+21c1262 HEAD@{29}: checkout: moving from master to yuvraj
+b2861a4 HEAD@{30}: checkout: moving from yuvraj to master
+21c1262 HEAD@{31}: commit: sem1->webpage for ic100 done, do this for other course/sem also
+b2861a4 HEAD@{32}: checkout: moving from master to yuvraj
+b2861a4 HEAD@{33}: merge yuvraj: Fast-forward
+007dc59 HEAD@{34}: checkout: moving from yuvraj to master
+b2861a4 HEAD@{35}: commit: sem 1 ic 100 done
+e47438b HEAD@{36}: commit: 1st semester done , not linked
+9c94635 HEAD@{37}: commit: made folders , now put elements acc to readme file
+f9e0383 HEAD@{38}: commit: saurav update js file for other semester
+420b9bb HEAD@{39}: commit: proceed buttton added
+44b1aed HEAD@{40}: commit (merge): resolved conflicts with saurav branch
+007dc59 HEAD@{41}: merge master: Fast-forward
+a5de20f HEAD@{42}: checkout: moving from master to yuvraj
+007dc59 HEAD@{43}: commit: semester button update
+a5de20f HEAD@{44}: merge yuvraj: Fast-forward
+cb015f3 HEAD@{45}: checkout: moving from yuvraj to master
+a5de20f HEAD@{46}: commit: button
+27cde9b HEAD@{47}: commit: options added but without css
+cb015f3 HEAD@{48}: checkout: moving from master to yuvraj
+cb015f3 HEAD@{49}: commit: some css modifications
+e19c424 HEAD@{50}: commit (initial): webpage started making
